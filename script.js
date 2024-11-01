@@ -28,8 +28,3 @@ document.getElementById('descer5').addEventListener('click', function(){
 });
 
 
-document.querySelector('.texto_barra').addEventListener('click', function() {
-    document.querySelector('.dropdown-content').classList.toggle('show');
-});
-
-// Fechar o dropdown se o usuário clicar fora dele
