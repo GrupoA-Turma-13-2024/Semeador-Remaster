@@ -423,7 +423,7 @@
 
 .seg_edu2{
     margin-top: 40px;
-    margin-left: 110px;
+    margin-left: 130px;
     margin-bottom: auto;
     font-size: 30px;
     font-family: sans-serif;
@@ -581,3 +581,58 @@ a{
     font-size: 20px;
 
 }
+
+/* Página 4 */
+
+.projetoT{
+    font-size: 40px;
+    font-family: sans-serif ;
+    font-weight:bold;
+    color: #003DA0;
+    text-justify: center;
+    text-align: center;
+    padding-top: 60px ;
+    padding-left: auto;
+    margin-right:60px;
+    margin-top: 20px;
+}
+
+.projetot{
+
+        padding-top: 20px;
+        padding-right: 150px;
+        padding-left: 150px;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #000000;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+
+
+    .matriculasT{
+        font-size: 40px;
+        font-family: sans-serif ;
+        font-weight:bold;
+        color: #003DA0;
+        text-justify: center;
+        text-align: center;
+        padding-top: 60px ;
+        padding-left: auto;
+        margin-right:60px;
+        margin-top: 20px;
+    }
+
+    .matriculast{
+
+        padding-top: 20px;
+        padding-right: 150px;
+        padding-left: 150px;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #000000;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
