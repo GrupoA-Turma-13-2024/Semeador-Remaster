@@ -548,12 +548,11 @@ a{
     padding-top: 60px ;
     padding-left: auto;
     margin-right:60px;
-    margin-top: 20px;
     
 }
 
 .doacoes_texto{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 150px;
     padding-left: 150px;
     font-size: 18px;
@@ -561,7 +560,7 @@ a{
     font-weight: bold;
     color: #000000;
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 
