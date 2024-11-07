@@ -23,7 +23,7 @@ document.getElementById('descer10').addEventListener('click', function(){
 });
 });
 
-document.getElementById('desce11').addEventListener('click', function(){
+document.getElementById('descer11').addEventListener('click', function(){
     document.getElementById('alvo11').scrollIntoView({behavior:'smooth'
 });
 });
