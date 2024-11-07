@@ -447,7 +447,7 @@
     justify-content: center;
 }
 
-.teste{
+.leitura1{
     position: fixed;
     top: 50%; /* Ajuste a posição vertical conforme necessário */
     right: 10px; /* Ajuste a posição horizontal conforme necessário */
@@ -458,7 +458,7 @@
     border-radius: 10px;
 }
 
-.teste:hover{
+.leitura1:hover{
     background-color: #0091ff; /* Cor da caixa ao passar o mouse */ /* Cor do texto ao passar o mouse */
     cursor:pointer;
     border: solid #0091ff;
@@ -536,6 +536,24 @@ a{
 
 }
 
+.leitura2{
+    position: fixed;
+    top: 50%; /* Ajuste a posição vertical conforme necessário */
+    right: 10px; /* Ajuste a posição horizontal conforme necessário */
+    width: 50px; /* Largura do ícone */
+    height: 50px; /* Altura do ícone */
+    background-color: #003DA0; /* Cor de fundo para visualização */
+    border: 2px solid #002869; /* Borda para visualização */
+    border-radius: 10px;
+}
+
+.leitura2:hover{
+    background-color: #0091ff; /* Cor da caixa ao passar o mouse */ /* Cor do texto ao passar o mouse */
+    cursor:pointer;
+    border: solid #0091ff;
+}
+
+
 /* página 3 */
 
 .doacoesT{
@@ -581,6 +599,24 @@ a{
 
 }
 
+.leitura3{
+    position: fixed;
+    top: 50%; /* Ajuste a posição vertical conforme necessário */
+    right: 10px; /* Ajuste a posição horizontal conforme necessário */
+    width: 50px; /* Largura do ícone */
+    height: 50px; /* Altura do ícone */
+    background-color: #003DA0; /* Cor de fundo para visualização */
+    border: 2px solid #002869; /* Borda para visualização */
+    border-radius: 10px;
+}
+
+.leitura3:hover{
+    background-color: #0091ff; /* Cor da caixa ao passar o mouse */ /* Cor do texto ao passar o mouse */
+    cursor:pointer;
+    border: solid #0091ff;
+}
+
+
 /* Página 4 */
 
 .projetoT{
@@ -608,7 +644,25 @@ a{
         text-align: justify;
         margin-bottom: 50px;
     }
+    .leitura4{
+        position: fixed;
+        top: 50%; /* Ajuste a posição vertical conforme necessário */
+        right: 10px; /* Ajuste a posição horizontal conforme necessário */
+        width: 50px; /* Largura do ícone */
+        height: 50px; /* Altura do ícone */
+        background-color: #003DA0; /* Cor de fundo para visualização */
+        border: 2px solid #002869; /* Borda para visualização */
+        border-radius: 10px;
+    }
+    
+    .leitura4:hover{
+        background-color: #0091ff; /* Cor da caixa ao passar o mouse */ /* Cor do texto ao passar o mouse */
+        cursor:pointer;
+        border: solid #0091ff;
+    }
+    
 
+    /* Página 5 */
 
     .matriculasT{
         font-size: 40px;
@@ -635,3 +689,21 @@ a{
         text-align: justify;
         margin-bottom: 50px;
     }
+
+    .leitura5{
+        position: fixed;
+        top: 50%; /* Ajuste a posição vertical conforme necessário */
+        right: 10px; /* Ajuste a posição horizontal conforme necessário */
+        width: 50px; /* Largura do ícone */
+        height: 50px; /* Altura do ícone */
+        background-color: #003DA0; /* Cor de fundo para visualização */
+        border: 2px solid #002869; /* Borda para visualização */
+        border-radius: 10px;
+    }
+    
+    .leitura5:hover{
+        background-color: #0091ff; /* Cor da caixa ao passar o mouse */ /* Cor do texto ao passar o mouse */
+        cursor:pointer;
+        border: solid #0091ff;
+    }
+    
