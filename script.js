@@ -28,3 +28,19 @@ document.getElementById('descer5').addEventListener('click', function(){
 });
 
 
+function lerElementos() {
+    if (window.speechSynthesis.speaking) {
+      window.speechSynthesis.cancel();
+    } else {
+      const elementos = document.querySelectorAll('.ler_texto');
+      elementos.forEach(elemento => {
+        const texto = elemento.textContent;
+        const utterance = new SpeechSynthesisUtterance(texto);
+        window.speechSynthesis.speak(utterance);
+      });
+    }
+  }
+  
+  // Adiciona o evento de clique ao botão
+  document.getElementById('lerTexto').addEventListener('click', lerElementos);
+  
