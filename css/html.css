@@ -42,7 +42,7 @@
     box-shadow: 
         0px -10px 10px -5px rgba(0, 0, 0, 0.25), /* Sombra superior */
         0px 10px 10px -5px rgba(0, 0, 0, 0.25);  /* Sombra inferior */
-    padding-left: 11vw;
+    padding-left: 55vw;
 }
 
 .dropdown {
@@ -482,9 +482,23 @@
     margin-top: 15px;
 }
 
+.rodape{
+    width:  100.95%;
+    height: auto;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+}
 
-
-
+.rodape_texto{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
 
 
 
