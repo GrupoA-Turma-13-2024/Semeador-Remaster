@@ -278,3 +278,24 @@ document.addEventListener('DOMContentLoaded', () => {
 setInterval(() => {
 nextSlide9();
 }, 5000);
+
+
+function lerElementos2() {
+    if (window.speechSynthesis.speaking) {
+      window.speechSynthesis.cancel();
+    } else {
+      const elementos2 = document.querySelectorAll('.ler_texto2');
+      elementos2.forEach(elemento2 => {
+        const texto2 = elemento2.textContent;
+        const utterance2 = new SpeechSynthesisUtterance(texto2);
+        window.speechSynthesis.speak(utterance2);
+      });
+    }
+  }
+
+  
+  
+  
+  
+  // Adiciona o evento de clique ao botão
+  document.getElementById('lerTexto2').addEventListener('click', lerElementos2);
