@@ -203,6 +203,119 @@ html, body {
     margin-bottom: 50px;
 }
 
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-control.prev {
+    left: 5vw;
+  }
+  
+  .carousel-control.next {
+    right: 5vw;
+  }
+
+
+  .carousel2 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel2-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel2-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel2-item.active {
+    display: block;
+  }
+  
+  .carousel2-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel2-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel2-control.prev2 {
+    left: 5vw;
+  }
+  
+  .carousel2-control.next2 {
+    right: 5vw;
+  }
+
+
+  
 .texto2{
     margin-top:5px;
     padding-left: 150px;
@@ -581,6 +694,399 @@ a{
 }
 
 
+
+.carousel3 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel3-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel3-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel3-item.active {
+    display: block;
+  }
+  
+  .carousel3-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel3-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel3-control.prev3 {
+    left: 5vw;
+  }
+  
+  .carousel3-control.next3 {
+    right: 5vw;
+  }
+
+
+  .carousel4 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel4-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel4-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel4-item.active {
+    display: block;
+  }
+  
+  .carousel4-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel4-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel4-control.prev4 {
+    left: 5vw;
+  }
+  
+  .carousel4-control.next4 {
+    right: 5vw;
+  }
+
+
+  .carousel5 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel5-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel5-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel5-item.active {
+    display: block;
+  }
+  
+  .carousel5-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel5-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel5-control.prev5 {
+    left: 5vw;
+  }
+  
+  .carousel5-control.next5 {
+    right: 5vw;
+  }
+
+  .carousel6 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel6-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel6-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel6-item.active {
+    display: block;
+  }
+  
+  .carousel6-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel6-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel6-control.prev6 {
+    left: 5vw;
+  }
+  
+  .carousel6-control.next6 {
+    right: 5vw;
+  }
+
+
+  .carousel7 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel7-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel7-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel7-item.active {
+    display: block;
+  }
+  
+  .carousel7-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel7-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel7-control.prev7 {
+    left: 5vw;
+  }
+  
+  .carousel7-control.next7 {
+    right: 5vw;
+  } 
+
+
+  .carousel8 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel8-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel8-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel8-item.active {
+    display: block;
+  }
+  
+  .carousel8-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel8-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel8-control.prev8 {
+    left: 5vw;
+  }
+  
+  .carousel8-control.next8 {
+    right: 5vw;
+  } 
+
+  .carousel9 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 10vw;
+  }
+  
+  .carousel9-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel9-item {
+    display: none;
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel9-item.active {
+    display: block;
+  }
+  
+  .carousel9-item img {
+    max-width: 100%;
+    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel9-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 128, 0);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel9-control.prev9 {
+    left: 5vw;
+  }
+  
+  .carousel9-control.next9 {
+    right: 5vw;
+  } 
+
+
+
 /* página 3 */
 
 .doacoesT{
@@ -647,21 +1153,21 @@ a{
 /* Página 4 */
 
 .projetoT{
-    font-size: 40px;
-    font-family: sans-serif ;
-    font-weight:bold;
-    color: #003DA0;
-    text-justify: center;
-    text-align: center;
     padding-top: 60px ;
-    padding-left: auto;
+    margin-left: 60px;
     margin-right:60px;
     margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #003DA0 ;
+    justify-content: center;
+    text-align: center;
 }
 
 .projetot{
-
-        padding-top: 20px;
+        margin-top: -1vw;
         padding-right: 150px;
         padding-left: 150px;
         font-size: 18px;
@@ -669,7 +1175,7 @@ a{
         font-weight: bold;
         color: #000000;
         text-align: justify;
-        margin-bottom: 50px;
+        margin-bottom: 90px;
     }
     .leitura4{
         position: fixed;
@@ -688,6 +1194,63 @@ a{
         border: solid #0091ff;
     }
     
+
+    .carousel10 {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 10vw;
+      }
+      
+      .carousel10-inner {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+      
+      .carousel10-item {
+        display: none;
+        min-width: 100%;
+        box-sizing: border-box;
+        transition: transform 0.5s ease;
+      }
+      
+      .carousel10-item.active {
+        display: block;
+      }
+      
+      .carousel10-item img {
+        max-width: 100%;
+        max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+        width: auto;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .carousel10-control {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 4vw;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 128, 0);
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      
+      .carousel10-control.prev10 {
+        left: 5vw;
+      }
+      
+      .carousel10-control.next10 {
+        right: 5vw;
+      } 
+
 
     /* Página 5 */
 
