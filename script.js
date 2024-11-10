@@ -116,3 +116,38 @@ document.addEventListener('DOMContentLoaded', () => {
 setInterval(() => {
 nextSlide2();
 }, 5000);
+
+
+let currentIndexp = 0;
+
+function showSlidep(indexp) {
+    const slidesp = document.querySelectorAll('.carouselp-item');
+    if (indexp >= slidesp.length) {
+        currentIndexp = 0;
+    } else if (indexp < 0) {
+        currentIndexp = slidesp.length - 1;
+    } else {
+        currentIndexp = indexp;
+    }
+    slidesp.forEach((slidep, a) => {
+        slidep.classList.toggle('active', a === currentIndexp);
+    });
+}
+
+function nextSlidep() {
+    showSlidep(currentIndexp + 1);
+}
+
+function prevSlidep() {
+    showSlidep(currentIndexp - 1);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    showSlidep(currentIndexp);
+});
+
+
+
+setInterval(() => {
+nextSlidep();
+}, 5000);
