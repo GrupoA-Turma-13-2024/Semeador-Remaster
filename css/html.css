@@ -5,41 +5,58 @@ html, body {
     height: 100%;
 }
 
+.logo {
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 1vw; /* Ajuste a posição conforme necessário */
+  left: 1vw; /* Ajuste a posição conforme necessário */
+  width: 2vw; /* Ajuste a largura conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  z-index: 3; /* Certifique-se de que o logo tenha um z-index maior */
+}
+
 .imagem-container {
-    width: 100%; /* 100% da largura da viewport */
-    height: 37vw; /* 100% da altura da viewport */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; /* Necessário para posicionamento absoluto do texto */
+  width: 100%; /* 100% da largura da viewport */
+  height: 37vw; /* 100% da altura da viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Necessário para posicionamento absoluto do texto */
+  z-index: 1; /* Certifique-se de que a imagem-container tenha um z-index menor */
 }
+
 .imagem-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Faz a imagem cobrir toda a área da div */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Faz a imagem cobrir toda a área da div */
 }
+
 .texto-centralizado {
-    position: absolute;
-    top: 75%; /* Ajuste a porcentagem conforme necessário para abaixar o texto */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white; /* Cor do texto */
-    font-size: 4vw; /* Tamanho da fonte aumentado */
-    text-align: center; /* Centraliza o texto */
-    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-    line-height: 1; /* Ajuste da altura da linha */
-    font-family: sans-serif ;
-    font-weight:bold;
+  position: absolute;
+  top: 75%; /* Ajuste a porcentagem conforme necessário para abaixar o texto */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Cor do texto */
+  font-size: 4vw; /* Tamanho da fonte aumentado */
+  text-align: center; /* Centraliza o texto */
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+  line-height: 1; /* Ajuste da altura da linha */
+  font-family: sans-serif;
+  font-weight: bold;
+  z-index: 2; /* Certifique-se de que o texto tenha um z-index menor que o logo */
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de transparência */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de transparência */
+  z-index: 1; /* Certifique-se de que a overlay tenha um z-index menor que o logo */
 }
+
+
 
 
 .barra{
@@ -362,7 +379,7 @@ html, body {
     justify-content: center;
     justify-items: center;
     width: 100%;
-    height: 420px;
+    height: 380px;
     background-color: #ffffff;
     border-radius: 25px;
     border-width: 7px;
