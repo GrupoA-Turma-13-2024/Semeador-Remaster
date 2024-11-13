@@ -629,11 +629,25 @@ html, body {
 }
 
 .rodape{
-    width:  100.95%;
+    width:  100.98%;
     height: auto;
     background-color: #323232;
     display: flex;
     padding-top: 2vw;
+}
+
+.mapa{
+  width:  100%;
+  height: auto;
+  background-color: #323232;
+  display: flex;
+  padding-top: 2vw;
+  justify-content: center;
+}
+.mapadentro{
+  width:50vw;
+  height:30vw; 
+  border-radius: 15px;
 }
 
 .rodape_texto{
