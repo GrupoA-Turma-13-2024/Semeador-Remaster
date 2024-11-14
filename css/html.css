@@ -16,16 +16,44 @@ html, body {
 }
 
 .icon {
-  mix-blend-mode: multiply;
   position: absolute;
   top: 1vw; /* Ajuste a posição conforme necessário */
-  left: 90vw; /* Ajuste a posição conforme necessário */
-  width: 2vw; /* Ajuste a largura conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
+  left: 89%; /* Ajuste a posição conforme necessário */
+  width: 50px; /* Ajuste a largura conforme necessário */
+  height: 50px; /* Mantém a proporção da imagem */
+  border-radius: 50%;
   z-index: 3; /* Certifique-se de que o logo tenha um z-index maior */
   color: white;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.153);
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
 }
+
+.usericon{
+  margin-top: 4px;
+  margin-left: 11px;
+   /* Ajuste a posição conforme necessário */
+  width: 25px; /* Ajuste a largura conforme necessário */
+  height: 25px; /* Mantém a proporção da imagem */
+  border-radius: 50%;
+  z-index: 6; /* Certifique-se de que o logo tenha um z-index maior */
+  background-color: rgb(255, 255, 255);
+}
+
+.usericon2{
+  margin-left: 11px;
+  margin-top: 2px ;
+   /* Ajuste a posição conforme necessário */
+  width: 25px; /* Ajuste a largura conforme necessário */
+  height: 5px; /* Mantém a proporção da imagem */
+  border-radius: 10%;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  z-index: 7; /* Certifique-se de que o logo tenha um z-index maior */
+  background-color: rgb(255, 255, 255);
+}
+
 
 .imagem-container {
   width: 100%; /* 100% da largura da viewport */
