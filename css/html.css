@@ -15,6 +15,18 @@ html, body {
   z-index: 3; /* Certifique-se de que o logo tenha um z-index maior */
 }
 
+.icon {
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 1vw; /* Ajuste a posição conforme necessário */
+  left: 90vw; /* Ajuste a posição conforme necessário */
+  width: 2vw; /* Ajuste a largura conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  z-index: 3; /* Certifique-se de que o logo tenha um z-index maior */
+  color: white;
+  background-color: white;
+}
+
 .imagem-container {
   width: 100%; /* 100% da largura da viewport */
   height: 37vw; /* 100% da altura da viewport */
