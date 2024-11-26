@@ -11,4 +11,17 @@ function lerElementos5() {
     }
   }
 
+  function toggleLogin() {
+    var loginContainer = document.getElementById('loginContainer');
+    var escurecer = document.getElementById('escurecer');
+    if (loginContainer.style.display === 'block') {
+        loginContainer.style.display = 'none';
+        escurecer.style.display = 'none';
+    } else {
+        loginContainer.style.display = 'block';
+        escurecer.style.display = 'block';
+    }
+  }
+  
+
   document.getElementById('lerTexto5').addEventListener('click', lerElementos5);
