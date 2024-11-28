@@ -776,9 +776,9 @@ html, body {
 
 .carouselp-item img {
   max-width: 90%;
-  max-height: 300px; /* Ajuste a altura máxima conforme necessário */
+  max-height: 20vw; /* Ajuste a altura máxima conforme necessário */
   width: auto;
-  height: 180px;
+  height: 15vw;
   object-fit: cover;
   display: block;
   margin-left: auto;
@@ -834,9 +834,9 @@ a{
 
 .evento_texto{
     padding-top: 20px;
-    padding-right: 150px;
-    padding-left: 150px;
-    font-size: 18px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    font-size: 2vw;
     font-family: sans-serif;
     font-weight: bold;
     color: #000000;
@@ -846,9 +846,10 @@ a{
 
 .evento{
     margin-top: 40px;
-    margin-left: 150px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-bottom: auto;
-    font-size: 30px;
+    font-size: 2.5vw;
     font-family: sans-serif;
     font-weight: bold;
     color: #003DA0;
@@ -1286,9 +1287,9 @@ a{
 
 .doacoes_texto{
     padding-top: 10px;
-    padding-right: 150px;
-    padding-left: 150px;
-    font-size: 18px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    font-size: 2vw;
     font-family: sans-serif;
     font-weight: bold;
     color: #000000;
@@ -1299,18 +1300,18 @@ a{
 
 .nota{
     color: #003DA0;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 .nota2{
     color: #003DA0;
-    font-size: 20px;
+    font-size: 2vw;
 
 }
 
 .cpf{
     color: #ff8400;
-    font-size: 20px;
+    font-size: 2vw;
 
 }
 
@@ -1351,9 +1352,9 @@ a{
 
 .projetot{
         margin-top: -1vw;
-        padding-right: 150px;
-        padding-left: 150px;
-        font-size: 18px;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        font-size: 2vw;
         font-family: sans-serif;
         font-weight: bold;
         color: #000000;
@@ -1454,9 +1455,9 @@ a{
     .matriculast{
 
         padding-top: 20px;
-        padding-right: 150px;
-        padding-left: 150px;
-        font-size: 18px;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        font-size: 2vw;
         font-family: sans-serif;
         font-weight: bold;
         color: #000000;
