@@ -5,6 +5,17 @@ html, body {
     height: 100%;
 }
 
+
+.audiovisu{
+  filter: invert(100%) brightness(100%);
+  background-color: transparent;
+  padding:7px;
+  width: 45px;
+  height: 45px;
+}
+
+
+
 .logo {
   mix-blend-mode: multiply;
   position: absolute;
