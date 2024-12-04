@@ -27,6 +27,11 @@ document.getElementById('descer5').addEventListener('click', function(){
 });
 });
 
+document.getElementById('descer6').addEventListener('click', function(){
+  document.getElementById('alvo6').scrollIntoView({behavior:'smooth'
+});
+});
+
 
 function lerElementos() {
     if (window.speechSynthesis.speaking) {
