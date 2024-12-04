@@ -22,6 +22,18 @@ function lerElementos3() {
         escurecer.style.display = 'block';
     }
   }
-  
+
+  function botaotermo() {
+    var termoContainer = document.getElementById('termoContainer');
+    var escurecer = document.getElementById('escurecer');
+    if (termoContainer.style.display === 'block') {
+        termoContainer.style.display = 'none';
+        escurecer.style.display = 'none';
+    } else {
+        termoContainer.style.display = 'block';
+        escurecer.style.display = 'block';
+    }
+  }
+
 
   document.getElementById('lerTexto3').addEventListener('click', lerElementos3);
