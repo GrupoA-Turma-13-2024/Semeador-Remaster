@@ -710,12 +710,13 @@ html, body {
     margin-top: 15px;
 }
 
-.rodape{
-    width:  100.98%;
-    height: auto;
-    background-color: #323232;
-    display: flex;
-    padding-top: 2vw;
+.rodape { 
+  width: calc(100% + 1px);
+  height: auto; 
+  background-color: #323232; 
+  display: flex; 
+  padding-top: 2vw;
+  margin-left: -1px;
 }
 
 .mapa{
