@@ -6,3 +6,10 @@ Esta página tem como objetivo modificar o antigo web site deles "http://escolao
 Prepare-se para um Remaster total do Semeador! 🚀📚👩‍🔬
 
 Esta aqui é a parte de desenvolvimento do sistema, contendo todas as reuniões, documentações, diagramas e entre outros.
+
+Membros do Grupo:
+Nome/RA
+Fábio Tofanello Silva /24.01806-6
+Felipe Duarte /24.00335-2
+Gustavo Bettini Dominguez /24.01715-9
+José Henrique Villanueva Malavazi /24.00357-3
