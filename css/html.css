@@ -275,7 +275,7 @@ html, body {
         font-size: 2vw; 
         cursor: pointer; }
 
-        
+
 
 .titulo2{
     padding-top: 60px ;
@@ -1347,6 +1347,17 @@ a{
     background-color: #0091ff; /* Cor da caixa ao passar o mouse */ /* Cor do texto ao passar o mouse */
     cursor:pointer;
     border: solid #0091ff;
+}
+
+
+/* Classe para ajustar o tamanho do vídeo e centralizá-lo */
+.video-tamanho {
+  width: 50vw; /* Ajuste a largura para 80% da largura da viewport */
+  height: auto; /* Mantém a proporção do vídeo */
+  max-width: 50vw; /* Define um tamanho máximo para a largura */
+  display: block; /* Exibir como bloco */
+  margin: 0 auto; /* Centralizar horizontalmente */
+  margin-bottom: 20px;
 }
 
 
