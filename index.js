@@ -246,18 +246,21 @@ app.post("/api/imagens", upload.single("imagem"), async (req, res) => {
   }
 });
 
-app.post("/api/logTempo", (req, res) => {
-  const { tempo } = req.body; // Extrai o campo 'tempo' do corpo da requisição
+// Variável para armazenar o número de acessos
+let contadorAcessos = 0;
 
-  if (typeof tempo === "number" && tempo > 0) {
-    console.log(`Tempo na página: ${tempo} segundos`);
-    res.status(200).send("Tempo registrado com sucesso.");
-  } else {
-    console.error("Erro: Tempo não definido ou inválido.");
-    res.status(400).send("Erro ao registrar tempo.");
-  }
+
+// Middleware para contar acessos
+app.use((req, res, next) => {
+  contadorAcessos++;
+  console.log(`Número de acessos: ${contadorAcessos}`);
+  next();
 });
 
+// Uma rota simples para teste
+app.get("/", (req, res) => {
+  res.send("Página acessada!");
+});
 
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
