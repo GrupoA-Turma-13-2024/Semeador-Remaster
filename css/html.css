@@ -897,7 +897,7 @@ a{
 .carousel3 {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 75vw;
     margin: auto;
     overflow: hidden;
   }
@@ -920,9 +920,9 @@ a{
   
   .carousel3-item img {
     max-width: 100%;
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 30vw; /* Ajuste a altura máxima conforme necessário */
     width: auto;
-    height: 300px;
+    height: 25vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -953,7 +953,7 @@ a{
   .carousel4 {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 75vw;
     margin: auto;
     overflow: hidden;
   }
@@ -976,9 +976,9 @@ a{
   
   .carousel4-item img {
     max-width: 100%;
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 30vw; /* Ajuste a altura máxima conforme necessário */
     width: auto;
-    height: 300px;
+    height: 25vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -1009,7 +1009,7 @@ a{
   .carousel5 {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 75vw;
     margin: auto;
     overflow: hidden;
   }
@@ -1032,9 +1032,9 @@ a{
   
   .carousel5-item img {
     max-width: 100%;
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 30vw; /* Ajuste a altura máxima conforme necessário */
     width: auto;
-    height: 300px;
+    height: 25vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -1064,7 +1064,7 @@ a{
   .carousel6 {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 75vw;
     margin: auto;
     overflow: hidden;
   }
@@ -1087,9 +1087,9 @@ a{
   
   .carousel6-item img {
     max-width: 100%;
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 28vw; /* Ajuste a altura máxima conforme necessário */
     width: auto;
-    height: 220px;
+    height: 23vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -1120,7 +1120,7 @@ a{
   .carousel7 {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 75vw;
     margin: auto;
     overflow: hidden;
   }
@@ -1143,9 +1143,9 @@ a{
   
   .carousel7-item img {
     max-width: 100%;
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 30vw; /* Ajuste a altura máxima conforme necessário */
     width: auto;
-    height: 300px;
+    height: 25vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -1176,7 +1176,7 @@ a{
   .carousel8 {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 75vw;
     margin: auto;
     overflow: hidden;
   }
@@ -1199,9 +1199,9 @@ a{
   
   .carousel8-item img {
     max-width: 100%;
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 30vw; /* Ajuste a altura máxima conforme necessário */
     width: auto;
-    height: 300px;
+    height: 25vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -1231,7 +1231,7 @@ a{
   .carousel9 {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 75vw;
     margin: auto;
     overflow: hidden;
     margin-bottom: 10vw;
@@ -1255,9 +1255,9 @@ a{
   
   .carousel9-item img {
     max-width: 100%;
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 30vw; /* Ajuste a altura máxima conforme necessário */
     width: auto;
-    height: 300px;
+    height: 25vw;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -1410,7 +1410,7 @@ a{
     .carousel10 {
         position: relative;
         width: 100%;
-        max-width: 800px;
+        max-width: 75vw;
         margin: auto;
         overflow: hidden;
         margin-bottom: 10vw;
@@ -1434,9 +1434,9 @@ a{
       
       .carousel10-item img {
         max-width: 100%;
-        max-height: 400px; /* Ajuste a altura máxima conforme necessário */
+        max-height: 30vw; /* Ajuste a altura máxima conforme necessário */
         width: auto;
-        height: 300px;
+        height: 25vw;
         object-fit: cover;
         display: block;
         margin-left: auto;
