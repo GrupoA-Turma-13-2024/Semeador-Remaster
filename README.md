@@ -10,6 +10,13 @@ Esta aqui é a parte de desenvolvimento do sistema, contendo todas as reuniões,
 Membros do Grupo:
 Nome/RA
 Fábio Tofanello Silva /24.01806-6
+Documentação e prototipação
+
 Felipe Duarte /24.00335-2
+Programador back-end, banco de dados e documentação
+
 Gustavo Bettini Dominguez /24.01715-9
+Prototipação, Design e banco de dados
+
 José Henrique Villanueva Malavazi /24.00357-3
+Programador Front-end, Design e prototipação
